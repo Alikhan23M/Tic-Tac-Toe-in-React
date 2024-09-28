@@ -39,19 +39,22 @@ code {
 /* Main heading or title css */
 .container h1{
   position: absolute;
-  top: 15px;
+  top: 40px;
   margin: auto;
   margin-bottom: 2rem;
   font-family: monospace;
   color:#26ffcb;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 /* CSS for the heading which displays the turn of the player */
 .container h3{
   position: absolute;
-  top: 10%;
+  top: 12%;
   margin: auto;
   text-align: center;
+  padding: 5px;
 }
 
 span{
@@ -93,7 +96,7 @@ span{
 
 /* Css for the images like circle and cross that we are inserting to the div on a click */
 .boxes img{
-  height: 80px;
+  height: 70px;
   text-align: center;
 }
 
@@ -229,8 +232,11 @@ label{
     height: 70px;
     width: 70px;
   }
+  .boxes img{
+    height: 60px;
+  }
   .container h3{
-    top: 20%;
+    top: 15%;
   }
   .reset{
   top: 70%;
